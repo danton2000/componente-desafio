@@ -15,11 +15,12 @@ import Content from './components/Content.vue'
 import Footer from './components/Footer.vue'
 export default {
     //Registrando o componente
+    // componente: modulo importado ou só modulo importado
     components: {
-        Menu: Menu,
-        Header: Header,
-        Content: Content,
-        Footer: Footer
+        Menu,
+        Header,
+        Content,
+        Footer
     }
 }
 </script>
